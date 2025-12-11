@@ -13,48 +13,48 @@ The workflow follows a structured sequence consisting of data cleaning, explorat
 
 ## Project Structure
 
-```
+```text
 solar-panel-efficiency-analysis
-|   .gitignore
-|   README.md
-|   requirements.txt
-|
-+---data
-|   +---processed
-|   |       train.csv
-|   |       test.csv
-|   |       train_engineered.csv
-|   |       test_engineered.csv
-|   |
-|   \---raw
-|       metadata.csv
-|       train.csv
-|       test.csv
-|       Weather.csv
-|       solar-irradiance/
-|
-+---notebooks
-|       01_cleaning.ipynb
-|       02_eda.ipynb
-|       03_preprocessing.ipynb
-|       04_train.ipynb
-|       05_postprocessing.ipynb
-|       06_evaluate.ipynb
-|
-+---reports
-|   |   executive_summary.md
-|   |   final_report.pdf
-|   |
-|   \---figures
-|       general/*.png
-|       astronomical/*.png
-|       monthly/*.png
-|       similar/*.png
-|
-+---src
-|       preprocessing.py
-|       exploration.py
-|       modeling.py
+├── .gitignore
+├── README.md
+├── requirements.txt
+│
+├── data
+│   ├── processed
+│   │   ├── train.csv
+│   │   ├── test.csv
+│   │   ├── train_engineered.csv
+│   │   └── test_engineered.csv
+│   │
+│   └── raw
+│       ├── metadata.csv
+│       ├── train.csv
+│       ├── test.csv
+│       ├── Weather.csv
+│       └── solar-irradiance/
+│
+├── notebooks
+│   ├── 01_cleaning.ipynb
+│   ├── 02_eda.ipynb
+│   ├── 03_preprocessing.ipynb
+│   ├── 04_train.ipynb
+│   ├── 05_postprocessing.ipynb
+│   └── 06_evaluate.ipynb
+│
+├── reports
+│   ├── executive_summary.md
+│   ├── final_report.pdf
+│   │
+│   └── figures
+│       ├── general/
+│       ├── astronomical/
+│       ├── monthly/
+│       └── similar/
+│
+└── src
+    ├── preprocessing.py
+    ├── exploration.py
+    └── modeling.py
 ```
 
 ## Workflow Summary
